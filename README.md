@@ -10,6 +10,10 @@ Then, we'll build our TinyVGG model and train it on a non-augmented dataset and 
 
 Finally, we'll use transfer learning in order to use a pretrained model (EfficientNet_B0), freeze its weights, redefine the classifier layer and fine-tune it to our problem and compare the difference.
 
+# EfficientNet architecture after being frozen
+
+[!model](results/EfficientNet Structure.png)
+
 # Results
 TinyVGG without Data Augmentation : Training Accuracy ~48%   |   Testing Accuracy ~27%  (pretty low)
 
